@@ -1,0 +1,20 @@
+<div class="itemView">
+	<div class="pageHeader">
+		If you have some question about this project, just send me an email using the contact form.
+	</div>
+	<div class="content">
+		<div class="imgContainer">
+			<img ng-if="detailItem.path" ng-src="img/{{detailItem.path}}"/>
+		</div>
+		<div class="description">
+			<h3>{{detailItem.title}}</h3>
+			<h4>{{detailItem.tasks}}</h4>
+			<div ng-repeat="item in detailItem.longdesc">
+				<img ng-if="item.img" ng-src="img/{{item.img}}" alt="item"/>
+				<iframe height="250px" width="300px" ng-if="item.video" ng-src="{{trustSrc(item.video)}}" frameborder="0" allowfullscreen></iframe>
+				<p ng-if="item.p">{{item.p}}</p>
+				<a ng-if="item.a" ng-href="{{item.a}}" target="_blank">Go to project</a>
+			</div>
+		</div>
+	</div>
+</div>
