@@ -1,6 +1,6 @@
 <?php
 	$emailTo = "info@jasperstein.nl";
-	$fromServer = "noreply@jasperstein.nl";
+	$fromServer = "info@jasperstein.nl";
 
 	// Quick Contact Form 
 	session_start();
@@ -9,7 +9,7 @@
     if(false&&isset($_SESSION['ip']) && (time() - $_SESSION['last_post']) < TIME_INTERVAL){
        	$json = array(
 			'state' => "error",
-			'message' => "To prevent spamming there's a timelimit of 5 minutes between each mail."
+			'message' => "To prevent spam there's a timelimit of 5 minutes between each mail."
 		);
 		die(json_encode($json));
    }

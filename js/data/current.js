@@ -1,7 +1,7 @@
 [
   {
     "title": "Browse",
-    "desc": "Browse is a big startup Android, iOS and web project I am curruntly working on as developer. It will be ready to launch around January/February 2015.",
+    "desc": "Browse is a big startup Android, iOS and web project I am currently working on as developer. It will be ready to launch around January/February 2015.",
     "longdesc": [
       {
         "p": "Browse is a startup project which I started as a project for school in 2013 and worked on to January 2014. Since September 2014 I'm back on it and it will be ready to launch in January or February 2015. A part of the project is again school-related. I'm doing all the programming work myself, including building an Android (Java) and iOS (Objective-C) application, a server (PHP, MySQL) and a web application (Javascript, AngularJS and HTML/CSS)."

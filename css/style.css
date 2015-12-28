@@ -1,4 +1,4 @@
-body {font-family: "merriweather",serif;min-width: 320px;overflow:hidden;}
+body {font-family: "merriweather",serif;min-width: 320px;overflow:hidden;text-align:justify;hyphens:auto;}
 
 .navigation {width: 200px;background-color: #252E3C;font-size: 14px;position: absolute;color: #FFF;bottom: 0;left: 0;top: 0;bottom:0;z-index: 1;-webkit-box-shadow: inset 0px 0px 142px 1px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 142px 1px rgba(0,0,0,0.75);box-shadow: inset 0px 0px 157px 1px rgba(0,0,0,0.75);overflow:hidden;}
 .navigation .list span {font-size: 15px;margin-right: 10px;}
@@ -39,7 +39,7 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .about .aboutHead .left {width: 50%;height: 400px;float:left;}
 .about .aboutHead .left .titleContent {width:260px;padding: 15px;padding-right: 0;margin-top: 148px;}
 .about .aboutHead .left h3{font-size: 31px;line-height: 47px;margin:0;color: #FFF;text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);}
-.about .aboutHead .left h4{font-style: italic;font-weight:normal;font-size:13px;line-height:12.5pt;color: #FFF;text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8);margin:0;}
+.about .aboutHead .left h4{font-style: italic;font-weight:normal;text-align: left;font-size:13px;line-height:12.5pt;color: #FFF;text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8);margin:0;}
 .about .aboutHead .right {width: 50%;height: 400px;float:left;text-align: center;}
 /*.about .aboutHead .right .img {background: url("../img/pic.png");background-repeat: no-repeat;background-size: 260px;background-position: 20px 16px;height: 480px;display:none;}*/
 .about .content {margin-top: -32px;}
@@ -74,7 +74,7 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .squared .item:hover img{opacity:0;}
 .squared .item:hover .overlay{opacity:1;}
 .squared .item .description {margin-left:5px;margin-right:5px;}
-.squared .item h3 {color:#252d40;margin: 0;}
+.squared .item h3 {color:#252d40;margin: 0;text-align: left;}
 .squared .item p {font-size:12px;margin: 0;}
 
 .itemView .content .imgContainer {width:auto;text-align: center;padding-top: 15px;}
