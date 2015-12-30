@@ -30,8 +30,8 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .navToggle{width: 30px;height:33px;-webkit-transition-duration:.5s;transition-duration:.5s}.navToggle .icon{-webkit-transition-duration:.5s;transition-duration:.5s;position:absolute;height: 5px;width: 30px;top:30px;background-color: #252d40;}.navToggle .icon:before{-webkit-transition-duration:.5s;transition-duration:.5s;position:absolute;width: 30px;height: 5px;background-color: #252d40;content:"";top: -10px;}.navToggle .icon:after{-webkit-transition-duration:.5s;transition-duration:.5s;position:absolute;width: 30px;height: 5px;background-color: #252d40;content:"";top: 10px;}.navToggle.slide .icon{-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transform: rotateZ(180deg);transform: rotateZ(180deg);}.navToggle.slide .icon:before{-webkit-transform: rotateZ(45deg) scaleX(0.75) translate(13px,-5px);transform: rotateZ(45deg) scaleX(0.75) translate(13px,-5px);}.navToggle.slide .icon:after{-webkit-transform: rotateZ(-45deg) scaleX(0.75) translate(13px,5px);transform: rotateZ(-45deg) scaleX(0.75) translate(13px,5px);}
 .navToggle:hover{cursor:pointer;}
 
-.container {margin-top :60px;position: absolute;top: 0;left: 0;bottom: 0;width: 100%;overflow: scroll;}
-.container .content {font-size:15px;padding: 15px;max-width: 550px;margin:auto;padding-top: 0;}
+.container {margin-top :60px;position: absolute;top: 0;left: 0;bottom: 0;width: 100%;overflow: scroll;overflow-x:hidden;}
+.container .content {font-size:15px;padding: 15px;padding-bottom: 3em;max-width: 550px;margin:auto;padding-top: 0;}
 
 /*pages section*/
 /*about*/
@@ -43,10 +43,12 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .about .aboutHead .right {width: 50%;height: 400px;float:left;text-align: center;}
 /*.about .aboutHead .right .img {background: url("../img/pic.png");background-repeat: no-repeat;background-size: 260px;background-position: 20px 16px;height: 480px;display:none;}*/
 .about .content {margin-top: -32px;}
+.about .content a {color:black;}
 .about .content h1 {font-size: 22px;margin:0;margin-bottom: 9px;color: #FFF;text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.8);}
 .about .content {margin-top: -32px;}
 .about .content hr {border: 1px solid black;border-top: 0;margin-top: 0;}
 .about .content ul {list-style-type: none;padding: 0;}
+.about .content .update-info {color: rgb(29, 27, 27);font-size: 13px;margin-top: 2em;}
 
 .portfolio .content {}
 .pageHeader {background-color: #f6f6f6;color: #252d40;font-style: italic;font-size: 12px;text-align: center;padding: 20px;}
@@ -83,7 +85,7 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .itemView .content .description h4 {margin: 0;margin-bottom: 11px;font-size: 13px;font-style:italic;font-weight: normal;}
 .itemView .content .description p {margin-top: 8px;margin-bottom: 8px;}
 .itemView .content .description a {color:#000000;}
-.itemView .content .description img {max-height: 300px;max-width: 100%;}
+.itemView .content .description img {max-height: 300px;max-width: 100%;padding-top: 0.5em;padding-bottom: 0.5em;}
 
 .page404 .content h3 {color:#252d40;}
 .page404 .content .paragraph {font-size:14px;}
@@ -107,7 +109,7 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 @media only screen and (min-width: 1100px) {
 	.about .aboutHead .left, .about .aboutHead .right {height:500px;}
 	.about .aboutHead .left .titleContent {width: 450px;}
-	.about .aboutHead .left h3 {font-size: 42px;line-height: 56px;}
+	.about .aboutHead .left h3 {font-size: 37px;line-height: 50px;}
 	.about .aboutHead .left h4 {font-size: 19px;line-height: 18pt;}
 }
 @media only screen and (min-width: 700px) {

@@ -1,5 +1,22 @@
 [
   {
+    "title": "MediaMonks bugfinder",
+    "desc": "This project was my main task as intern developer at MediaMonks Amsterdam. My task was to build a NodeJS prototype bugfinder for data capturing.",
+    "longdesc": [
+      {
+        "p" : "This project was my main task as intern developer at MediaMonks Amsterdam (Hilversum). My task was to build a NodeJS prototype bugfinder for data capturing. This prototype had read only access to a preconfigured database and analyzes all database rows, based on all kind of settings. With this prototype MediaMonks would be notified as soon as possible when it discovers potential errors in data capturing. A bug can be repaired by one of MediaMonks it's programmers to keep application consistent and reliable."
+      },
+      {
+        "p" : "When the database find indications of errors based on data, for example when data input suddenly stopped, or suddenly stopped for a specific browser, there’s a chance a program contains an (new) error that needs to be repaired. I build this NodeJS prototype with all kinds of checks like stopping of data input, invalid fields and deflected fields. I also build a simple, secured, frontend tool to connect with this prototype and to configure the server. This frontend tool is build using MediaMonks it’s own framework. A lot of Javascript (especially NodeJS), Typescript, KnockoutJS, a lot of other JS libraries, SASS (CSS preprocessor) and HTML was involved."
+      },
+      {
+        "p" : "This project also contained some machine learning aspects (it learns from all analyzed data), a lot of mathematics and smart use of Javascript dynamic variables. This project was my final school project which helped me to get my bachelor degree of Engineering (B.E.) with distinction."
+      }
+    ],
+    "path": "portfolio/bugfinder.jpg",
+    "tasks": "Javascript (NodeJS), HTML, CSS, SASS, Typescript, KnockoutJS and MySQL"
+  },
+  {
     "title": "Typerendering",
     "desc": "For the Typerendering project I implemented an animation in the header of the page and made the whole page responsive for mobile devices. A link to the Typerendering website can be found here.",
     "longdesc": [
@@ -18,7 +35,7 @@
   },
   {
     "title": "Red Urban and Etcetera Dashboard",
-    "desc": "This project was my main task as intern interactive developer at Red Urban Amsterdam. Creating an analytics dashboard based on a lot of sources. A project that will be used to replace the old Red Urban dashboard.",
+    "desc": "This project was my main task as intern interactive developer at Red Urban Amsterdam. Creating an analytics dashboard based on a lot of sources. A project that will replace the old Red Urban dashboard.",
     "longdesc": [
     	{ 
     		"p" : "Besides serveral minor tasks as intern interactive developer at Red Urban Amsterdam I had one main task, the Red Urban and Etcetera Dashboard. Red Urban is a digital advertising agency based in Amsterdam. Red Urban is well known by it's clients through it's so-called 'Dashboard'. With this dashboard campaigns can be tracked and monitored in real-time. The information on the dashboard can be important for Red Urban and it's clients. This project took place from February 2014 to June 2014."
@@ -94,7 +111,7 @@
     "tasks": "XNA client and design"
   },
      {
-    "title": "Website 'Advocatenkantoor Paanakker",
+    "title": "Website Advocatenkantoor",
     "desc": "In the summer of 2013 I was asked to build a website for Advocatenkantoor Paanakker, a law office based in Arnhem (NL). I build an own wordpress theme so the owner had a CMS to control her website. She's now able to adjust almost everything.",
     "longdesc": [
       {
@@ -109,10 +126,10 @@
   },
   {
     "title": "Amphibious vehicle",
-    "desc": "At the end of school 2012/2013 I worked on a project with 5 different courses. Togheter with a group of 10 people we built an Amphibious vehicle which won a school race out of 4 other vehicles.",
+    "desc": "At the end of school 2012/2013 I worked on a project with people from 5 different courses. Together with a group of 10 people we built an Amphibious vehicle which won a school race out of 4 other vehicles. The vehicle was controlled by a self built Android application ",
     "longdesc": [
       {
-        "p": "At the end of school 2012/2013 I worked on a project with 5 different courses: Mechanical Engineering, Electrical Engineering, shipbuilding and (technical) Computer Science. Togheter we built a Amphibious vehicle which won a school race."
+        "p": "At the end of school 2012/2013 I worked on a project with 5 different courses: Mechanical Engineering, Electrical Engineering, shipbuilding and (technical) Computer Science. Together we built a Amphibious vehicle which won a school race."
       },
       {
         "img" : "portfolio/amfibi2.jpg"
@@ -135,7 +152,7 @@
   },
   {
     "title": "3D Simulation",
-    "desc": "In 2012 we got a task for school to build a 3D container storage with 5 people. The server had to process a XML file and had to send simulation data to the client. The whole project was build with Java and jMonkey.",
+    "desc": "In 2012 we got a task to build a 3D container storage with 5 people. The server had to process XML files and had to send simulation data to the client. The whole project was build with Java and jMonkey.",
     "longdesc": [
       {
         "p": "In 2012 we got a task for school to build a 3D container storage with 5 people. The server had to process a XML file and had to send simulation data to the client. The client was only meant for drawing and was not allowed to calculate unprocessed XML. The client had to show boats, storage terrain, trucks, small boats and trains (sometimes with multiple containers on it)."
@@ -158,10 +175,10 @@
   },
   {
     "title" : "XNA Game",
-    "desc" : "For the school subject Graphics we got an assignment to create a platform game with C# XNA. We had to come up with a storyline and based on that stroyline we had to build a game.",
+    "desc" : "For the school subject Graphics we got an assignment to create a platform game with C# XNA. We had to come up with a storyline and based on that storyline we had to build a game other classmates could play.",
     "longdesc": [
       {
-        "p": "For the school subject Graphics we got an assignment to create a platform game with C# XNA. We had to come up with a storyline and based on that stroyline we had to build a game. A classmate and I came up with a story about a ball that needed to go along various obstacles to reach the. The main target was to reach the beach with as much points as possible. The ball was controlled by using the keyboard arrows and the spacebar. I did a big part of the programming work, the graphics, the music and all soundeffects (in Fruity Loops Studio). A low quality video of the game can be found below."
+        "p": "For the school subject Graphics we got an assignment to create a platform game with C# XNA. We had to come up with a storyline and based on that storyline we had to build a game other classmates could play. A classmate and I came up with a story about a ball that needed to go along various obstacles to reach the. The main target was to reach the beach with as much points as possible. The ball was controlled by using the keyboard arrows and the spacebar. I did a big part of the programming work, the graphics, the music and all soundeffects (in Fruity Loops Studio). A low quality video of the game can be found below."
       },
       {
         "video" : "//www.youtube.com/embed/ME2tZhBe7tM"
@@ -172,7 +189,7 @@
   },
   {
     "title" : "Vaarwater app",
-    "desc" : "At the beginning of 2012 we (me and 3 other students) built an application for the watersport in Friesland (NL). It was my first app for Android and iOS. We used Appcelerator's Titanium Studio for this project.",
+    "desc" : "At the beginning of 2012 we (me and 3 other students) built an application for the watersport. It was my first app for Android and iOS. We used Appcelerator's Titanium Studio for this project.",
     "longdesc": [
       {
         "p": "At the beginning of 2012 we (me and 3 other students) built an application for the watersport in Friesland (NL). It was my first app for Android and iOS. We used Appcelerator's Titanium Studio for this project (mainly Javascript). The apps were very similar but all had their own functionalities. The apps were named 'Bruggen- en aanlegplaatsen app', 'Leeuwarden binnenstad routes app' and 'Trailerhellingen app'."

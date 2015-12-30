@@ -18,7 +18,7 @@
 	<script src="js/app.js"></script>
 	<script src="js/controllers/pageCtrl.js"></script>
 	<script src="js/controllers/formCtrl.js"></script>
-	
+
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -38,10 +38,10 @@
 <body>
 	<div class="navigation">
 		<ul class="list" ng-click="openMenu = !openMenu">
-			<li><a href="#"><span class="icon-home"></span> Home</a></li>
-			<li><a href="#current"><span class="icon-hammer"></span>Current work</a></li>
-			<li><a href="#portfolio"><span class="icon-folder-open"></span>Portfolio</a></li>
-			<li><a href="#contact"><span class="icon-address-book"></span>Contact</a></li>
+			<li><a href="#" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'home']);"><span class="icon-home"></span> Home</a></li>
+			<li><a href="#current" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'current']);"><span class="icon-hammer"></span>Current work</a></li>
+			<li><a href="#portfolio" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'portfolio']);"><span class="icon-folder-open"></span>Portfolio</a></li>
+			<li><a href="#contact" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'contact']);"><span class="icon-address-book"></span>Contact</a></li>
 		</ul>
 		<div class="paragraph">Do you want to send me an e-mail without the given form? Encode this binary: <p class="binary">{{binary}}</p>
 		</div>
@@ -54,9 +54,9 @@
 			    </div>
 			    <div class="icon-home"></div>
 			    <div class="social">
-			    	<a href="https://github.com/jasperste" target="_blank"><span class="icon-github"></span></a>
-			    	<a href="http://nl.linkedin.com/pub/jasper-stein/63/8a7/59a/" target="_blank"><span class="icon-linkedin"></span></a>
-			    	<a href="http://twitter.com/jasperste" target="_blank"><span class="icon-twitter"></span></a>
+			    	<a href="https://github.com/jasperste" target="_blank" onclick="_gaq.push(['_trackEvent', 'social', 'klik', 'github']);"><span class="icon-github"></span></a>
+			    	<a href="http://nl.linkedin.com/pub/jasper-stein/63/8a7/59a/" target="_blank" onclick="_gaq.push(['_trackEvent', 'social', 'klik', 'linkedin']);"><span class="icon-linkedin"></span></a>
+			    	<a href="http://twitter.com/jasperste" target="_blank" onclick="_gaq.push(['_trackEvent', 'social', 'klik', 'twitter']);"><span class="icon-twitter"></span></a>
 			    </div>
 			</div>
 			<div class="sliderContainer" click-slider ng-click="openMenu = false">
