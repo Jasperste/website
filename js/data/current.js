@@ -1,5 +1,22 @@
 [
   {
+    "title": "Blendle",
+    "desc": "Blendle aggregates articles into a single, ad-free platform where readers can pick and choose which stories to read. I'm working on the backend as well as the frontend working with Ruby, Golang and ReactJS.",
+    "longdesc": [
+      {
+        "p": "Blendle aggregates articles into a single, ad-free platform where readers can pick and choose which stories to read. I'm mainly working on the backend API and internal tools doing Ruby and Golang. And, if needed, I'm also doing frontend work (JS/ReactJS), which includes blendle.com and our internal tools."
+      },
+      {
+        "p" : "Discover the best journalism below."
+      },
+      {
+        "a" : "https://www.blendle.com"
+      }
+    ],
+    "path": "current/blendle-logo.jpg",
+    "tasks": "Discover the best journalism"
+  },
+  {
     "title": "Browse",
     "desc": "Browse is a startup for Android, iOS and web I am currently working on as developer and designer. It will be ready to BETA launch around February/March 2016.",
     "longdesc": [
@@ -10,7 +27,7 @@
         "p": "With this application you will get the most out of your location using your mobile phone. I would love to tell more about this application, but untill the BETA launch in 2016 I can't tell much. Keep an eye on my twitter!"
       },
       {
-      	"p" : "If you are very curious, a good UX-designer, iOS developer or have a question, just send me an email using the contact form or contact me using social media."
+        "p" : "If you are very curious, a good UX-designer, iOS developer or have a question, just send me an email using the contact form or contact me using social media."
       }
     ],
     "path": "current/browse.jpg",
@@ -56,13 +73,13 @@
   },
   {
     "title": "Other",
-    "desc": "Besides the other projects, which you can read about on this page, I'm also training hard to get better at running and I also have several other school tasks.",
+    "desc": "Besides the mentioned projects, which you can read about on this page, I'm also training hard to get better at running and I also have several other side projects.",
     "longdesc": [
     	{
-        "p" : "Beside the other projects I am also working on several small projects. I'm also reading a lot about new and existing technology to improve my programming knowlegde."
+        "p" : "Beside the mentioned other projects I am always working on several small projects. Besides that, I like to read about new and existing technologies."
       },
       {
-    		"p" : "Besides programming, running is one of my favorite things to do. I train a lot to get better at distances from 10 km to 42.2 km. You can find my most important personal records at the home page."
+    		"p" : "Besides programming, running is one of my favorite things to do. I train a lot to get better at distances from 5 km to 42.2 km. You can find my most important personal records at the home page."
     	}
     ],
     "path": "current/other.jpg",
