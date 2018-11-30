@@ -53,18 +53,6 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .portfolio .content {}
 .pageHeader {background-color: #f6f6f6;color: #252d40;font-style: italic;font-size: 12px;text-align: center;padding: 20px;}
 
-.contact .content form {text-align: center;}
-.contact .content input, .contact .content textarea {margin-top:20px;width: 250px;padding-left: 15px;font-size: 12px;padding: 6px;}
-.contact .content textarea {width: 252px;max-width: 252px;max-height: 200px;}
-.contact .content button {width: 265px;border: none;background-color: #252d40;padding: 4px;font-size: 24px;margin-top: 20px;-webkit-box-shadow: inset 0px 0px 31px 1px rgba(0,0,0,0.75); -moz-box-shadow: inset 0px 0px 31px 1px rgba(0,0,0,0.75); box-shadow: inset 0px 0px 31px 1px rgba(0,0,0,0.75);}
-.contact .content button:hover {background-color: #252D53;}
-.contact .content button .icon-paperplane {color:#FFF;}
-.contact .content .error {border: 1px solid #ff0033;}
-.contact .content .responseMessage {color: #252d40;margin-top: 23px;font-size: 13px;text-align: center;font-style: italic;}
-.contact .content .responseMessage .messageBox {border-top: 2px solid #F6F6F6;border-bottom: 2px solid #F6F6F6;padding: 20px;font-style: normal;width: 270px;margin: auto;margin-top: 20px;text-align: left;}
-.contact .content .responseMessage .messageBox h4 {margin: 0;font-size: 13px;}
-.contact .content .responseMessage .messageBox .message {font-style: italic;font-size: 12px;}
-
 .content.squared {max-width:950px;padding-top: 15px;}
 .squared .repeat {color:#000000;text-decoration:none;display: block;}
 .squared .item {max-width: 450px;float:none;margin:auto;margin-bottom: 15px;display:block;cursor:pointer;}
@@ -96,9 +84,6 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 	.about .aboutHead .left .titleContent{margin-top: 165px;float:right;}
 	.about .aboutHead .left h3 {font-size: 32px;line-height: 36px;}
 	.about .aboutHead .left h4 {font-size: 15px;line-height: 16.5pt;}
-	.contact .content input, .contact .content textarea {margin-top: 20px;width: 300px;}
-	.contact .content textarea {width: 302px;max-width: 302px;}
-	.contact .content button {width: 316px;}
 }
 @media only screen and (min-width: 650px) {
 	.about .aboutHead .left .titleContent{width: 300px;}

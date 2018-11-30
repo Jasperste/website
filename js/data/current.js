@@ -27,7 +27,7 @@
         "p": "With this application you will get the most out of your location using your mobile phone. I would love to tell more about this application, but untill the BETA launch in 2016 I can't tell much. Keep an eye on my twitter!"
       },
       {
-        "p" : "If you are very curious, a good UX-designer, iOS developer or have a question, just send me an email using the contact form or contact me using social media."
+        "p" : "If you are very curious, a good UX-designer, iOS developer or have a question, just send me an email or contact me via social media."
       }
     ],
     "path": "current/browse.jpg",
