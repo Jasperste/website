@@ -29,7 +29,6 @@ mainCtrl.factory('DataService', function(CacheService, CacheService) {
 function router($routeProvider){
 	$routeProvider
 		.when('/', {templateUrl:'partials/about.html'})
-		.when('/contact', {templateUrl:'partials/contact.html', controller : 'formCtrl'})
 		.when('/404', {templateUrl:'partials/404.html', controller : 'pageCtrl'})
 		.when('/current', {templateUrl:'partials/current.html', controller : 'pageCtrl'})
 		.when('/portfolio', {templateUrl:'partials/portfolio.html', controller : 'pageCtrl'})
