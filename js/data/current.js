@@ -65,7 +65,7 @@
     "desc": "Besides the mentioned projects, which you can read about on this page, I'm also training hard to get better at running and I also have several other side projects.",
     "longdesc": [
     	{
-        "p" : "Beside the mentioned other projects I am always working on several small projects. Besides that, I like to read about new and existing technologies."
+        "p" : "Beside the mentioned other projects I am always working on several small projects. For example I like to DJ and to read about (new) technologies."
       },
       {
     		"p" : "Besides programming, running is one of my favorite things to do. I train a lot to get better at distances from 5 km to 42.2 km. You can find my most important personal records at the home page."
