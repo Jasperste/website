@@ -32,7 +32,6 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="css/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/css/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/css/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/css/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/css/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
@@ -50,24 +49,20 @@
 	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
-	  //onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'home']);"
 	</script>
 </head>
 <body>
-	<div class="navigation">
-		<ul class="list" ng-click="openMenu = !openMenu">
-			<li><a href="#" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'home']);"><span class="icon-home"></span> Home</a></li>
-			<li><a href="#current" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'current']);"><span class="icon-hammer"></span>Current work</a></li>
-			<li><a href="#portfolio" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'portfolio']);"><span class="icon-folder-open"></span>Portfolio</a></li>
-		</ul>
-		<div class="paragraph">Do you want to send me an e-mail via my direct info address? Encode this binary: <p class="binary">{{binary}}</p>
-		</div>
-	</div>
-	<div class="mainBody" ng-class="{slide: openMenu}">
+	<div class="mainBody">
 		<header ng-style="{'marginTop' : headerMarginTop};">
 			<div class="content">
-				<div class="navToggle" ng-class="{slide: openMenu}" ng-click="openMenu = !openMenu;">
-			        <div class="icon"></div>
+				<div>
+					<div class="navigation">
+						<ul class="list" ng-click="openMenu = !openMenu">
+							<li><a href="#" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'home']);">Home</a></li>
+							<li><a href="#current" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'current']);">Current work</a></li>
+							<li><a href="#portfolio" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'portfolio']);">Portfolio</a></li>
+						</ul>
+					</div>
 			    </div>
 			    <div class="icon-home"></div>
 			    <div class="social">
@@ -76,7 +71,7 @@
 			    	<a href="http://twitter.com/jasperste" target="_blank" onclick="_gaq.push(['_trackEvent', 'social', 'klik', 'twitter']);"><span class="icon-twitter"></span></a>
 			    </div>
 			</div>
-			<div class="sliderContainer" click-slider ng-click="openMenu = false">
+			<div class="sliderContainer" click-slider>
 				<div class="slider" ng-style="{'left' : sliderMargin};" draggable></div>
 			</div>
 		</header>
