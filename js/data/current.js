@@ -1,13 +1,19 @@
 [
   {
     "title": "Blendle",
-    "desc": "Blendle aggregates articles into a single, ad-free platform where readers can pick and choose which stories to read. I'm working on the backend as well as the frontend working with Ruby, Golang and ReactJS.",
+    "desc": "Blendle aggregates articles into a single, ad-free platform where readers can pick and choose which stories to read. I'm working on a software engineer and technical lead platform, working with mainly Ruby.",
     "longdesc": [
       {
-        "p": "Blendle aggregates articles into a single, ad-free platform where readers can pick and choose which stories to read. I'm mainly working on the backend API and internal tools doing Ruby and Golang. And, if needed, I'm also doing frontend work (JS/ReactJS), which includes blendle.com and our internal tools."
+        "p": "Blendle aggregates articles from all magazines and publishers into a single, ad-free platform where readers get a daily selection of stories to read or can pick which stories to read from our digital kiosk. Blendle has almost two million dutch users and is still growing."
       },
       {
-        "p" : "Discover the best journalism below."
+        "p": "Besides working as software engineering I'm leading the tech stack and team to ensure architectural consistency and robustness. I am responsible for the stability of our code base, best practices, technical roadmap, architecture and scalability, effort estimations, verifying technical ideas and implementations, our general technical direction and I am a technical entry point for stakeholders."
+      },
+      {
+        "p": "Me and my team are responsible for all of the work around Blendle’s backend systems and infrastructure (mainly build with Ruby, Bash, Kubernetes, Golang, PostgreSQL and GraphQL). Among this are our pay-per-article and subscription systems (Stripe, Vodafone and Apple payment systems) and all our user-facing features. I also work on all automations to get (international) publishers’ content into our platform, third-party integrations and expanding and building all the tools we currently use. If needed, I also do frontend work (ReactJS), which includes our main platform and our internal tools."
+      },
+      {
+        "p" : "Discover the best journalism below by clicking on go to project."
       },
       {
         "a" : "https://www.blendle.com"
