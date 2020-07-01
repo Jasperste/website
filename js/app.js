@@ -36,10 +36,13 @@ function router($routeProvider){
 		.when('/:anything', {templateUrl:'partials/404.html', controller : 'pageCtrl'});
 }
 
-function run($rootScope, $location){
+function run($rootScope, $location, $window){
 	$rootScope.headerMarginTop = 0;
 	$rootScope.go = function(path){
 		$location.path(path);
+	};
+	$rootScope.go_external = function(url){
+		$window.open(url, "_blank")
 	};
 }
 
