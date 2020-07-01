@@ -50,11 +50,11 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 
 .content.squared {max-width:950px;padding-top: 15px;}
 .squared .repeat {color:#000000;text-decoration:none;display: block;}
-.squared .item {max-width: 450px;float:none;margin:auto;margin-bottom: 15px;display:block;cursor:pointer;}
+.squared .item {max-width: 520px;float:none;margin:auto;margin-bottom: 15px;display:block;cursor:pointer;}
 .squared .item .imgContainer {margin:5px;width:auto;position: relative;}
 .squared img {width:100%;opacity:1;}
 .squared .item .imgContainer .overlay {position:absolute;left:0;top: 50%;margin-top: -31px;text-align: center;width: 100%;opacity:0;}
-.squared .item .imgContainer .overlay h2 {font-size: 28px;margin: 0;}
+.squared .item .imgContainer .overlay h2 {font-size: 28px;margin: 0;color:#252d40;}
 .squared .item img, .squared .item .overlay {-webkit-transition: opacity 0.7s ease-out;-moz-transition: opacity 0.7s ease-out;-ms-transition: opacity 0.7s ease-out;-o-transition: opacity 0.7s ease-out;transition: opacity 0.7s ease-out;}
 .squared .item:hover img{opacity:0;}
 .squared .item:hover .overlay{opacity:1;}
@@ -92,7 +92,7 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 	.about .aboutHead .left h3 {font-size: 37px;line-height: 50px;}
 	.about .aboutHead .left h4 {font-size: 19px;line-height: 18pt;}
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1000px) {
 	.squared .item {width: 50%;float:left;min-width:330px;margin-bottom: 15px;min-width: 330px;}
 }
 

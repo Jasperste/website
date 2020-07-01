@@ -17,23 +17,6 @@
     "tasks": "Discover the best journalism"
   },
   {
-    "title": "Browse",
-    "desc": "Browse is a startup for Android, iOS and web I am currently working on as developer and designer. It will be ready to BETA launch around February/March 2016.",
-    "longdesc": [
-      {
-        "p": "Browse is a startup project which I started as a project for school in 2013 and worked on to January 2014. I also worked on this project between September 2014 and January 2015. Since December 2015, I'm back on it and it will be ready do a test launch in February 2016. I'm doing all the programming work myself, including building an Android (Java, including design) application, a server (PHP, MySQL) and a web application (Javascript, AngularJS and HTML/CSS, including design)."
-      },
-      {
-        "p": "With this application you will get the most out of your location using your mobile phone. I would love to tell more about this application, but untill the BETA launch in 2016 I can't tell much. Keep an eye on my twitter!"
-      },
-      {
-        "p" : "If you are very curious, a good UX-designer, iOS developer or have a question, just send me an email or contact me via social media."
-      }
-    ],
-    "path": "current/browse.jpg",
-    "tasks": "Android, Web and iOS application"
-  },
-  {
     "title": "Custom Links",
     "desc": "Since July 2015 I am the co-owner of Custom Links. I am responsible for all the programming work, design work and building solid programs to run on multiple Amazon AWS servers and keeping them running.",
     "longdesc": [
