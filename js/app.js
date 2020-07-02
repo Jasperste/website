@@ -62,7 +62,7 @@ function slider(){
 					$scope.headerMarginTop = 0; // must fit in 56/4
 				}*/
 				scrollPos = raw.scrollTop;
-				var slideWidth = raw.offsetWidth - 100; //minus sliderWidth
+				var slideWidth = raw.offsetWidth - 140; //minus sliderWidth
 				var scrollPerc = raw.scrollTop / (raw.scrollHeight-raw.offsetHeight);
 				var margin = scrollPerc * slideWidth;
 				$scope.$parent.sliderMargin = margin; /*do not use a own sliderMargin,  use parent*/

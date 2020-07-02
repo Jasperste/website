@@ -1,12 +1,14 @@
 body {font-family: "merriweather",serif;min-width: 320px;overflow:hidden;text-align:justify;hyphens:auto;}
 
-h1, h2, h3, h4, h5, h6 { color:#252d40 }
+h1, h2, h3, h4, h5, h6 { color:black;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif; }
+strong, .blog a, .container a:hover { color: #ff0051 !important;  }
 
-.navigation {font-size: 14px;}
+.navigation {font-size: 14px;margin-top: 4px}
 .navigation .list span {font-size: 15px;}
 .navigation a {text-decoration: none;color: #000;font-size: 14px;}
 .navigation a:hover {text-decoration: underline;color:#0d0031;}
 .navigation .list {list-style-type: none;padding: 0;margin: 0;width:280px;}
+.navigation ul li:first-child {padding-left:0;}
 .navigation li {border-right: 1px solid #252d40;display:block;float:left;padding-left:10px;padding-right:10px; }
 .navigation li:hover {color: white;}
 .navigation li:hover span {margin-left:3px;}
@@ -25,12 +27,10 @@ header .content .social .icon-linkedin {color:#0097bd;}
 header .content .social .icon-twitter {color:#5dd7fc;}
 
 header .sliderContainer {background-color: #e4e4e4;width:100%;height:4px;position:absolute;bottom:0;left:0;}
-header .sliderContainer .slider {width:100px;height:4px;background-color: #252d40;position: relative;}
+header .sliderContainer .slider {width:140px;height:4px;background-color: #252d40;position: relative;}
 
 .container {margin-top :60px;position: absolute;top: 0;left: 0;bottom: 0;width: 100%;overflow: scroll;overflow-x:hidden;}
 .container .content {font-size:15px;padding: 15px;padding-bottom: 3em;max-width: 550px;margin:auto;padding-top: 0;}
-
-.about {font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;}
 
 /*about header*/
 .about .aboutHead .titleContent{margin-top: 3em;float:right;}
@@ -57,7 +57,7 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .blog article .content {padding:0;margin:0;padding-top: 0;}
 .blog article .content p {margin-top:0.3em;}
 .blog article h3 {color:#252d40}
-.blog article img {max-width: 100%;}
+.blog article img {max-width: 100%;border-radius: 15px;}
 
 .portfolio .content {}
 .pageHeader {background-color: #f6f6f6;color: #252d40;font-style: italic;font-size: 12px;text-align: center;padding: 20px;}

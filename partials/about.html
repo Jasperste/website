@@ -3,8 +3,8 @@
 		<div class="aboutHead">
 			<div class="titleContent">
 				<h1>Software Engineer</h1>
-				<p>Hello, welcome on my site! I'm <strong>Jasper Stein</strong>, a Dutch software engineer who is currently working at Blendle. I'm passionated about code and infastructure that is well written, tested, reusable and scalable while always keeping the end user and requirements in mind.</p>
-				<p>I have several side projects and other work and interests that can be found on this site.</p>
+				<p>Hi, I'm <strong>Jasper Stein</strong>, a Dutch Software Engineer who is currently working at Blendle. I'm passionated about code and infastructure that is well written, tested, reusable and scalable while always keeping the end user and requirements in mind.</p>
+				<p>I have several side projects, other work and interests that can be found on this site.</p>
 			</div>
 		</div>
 
@@ -17,7 +17,24 @@
 			</ul>
 
 		</section>
-
+		<section class="blog">
+			<h3>Highlighted projects</h3>
+			<article ng-click="go('current/Blendle')">
+				<img src="/img/current/blendlevisual.jpg" alt="Blendle"/>
+				<div class="content">
+					<h4>Blendle</h4>
+					<p>I currently work at Blendle as Software Engineer and Tech Lead Platform. Me and my team are responsible for all of the work around Blendle’s backend systems and infrastructure.</p>
+				</div>
+			</article>
+			<article  ng-click="go_external('https://www.customizelinks.com/')">
+				<img src="/img/current/customizelinks-devices-example.png" alt="Customize Links"/>
+				<div class="content">
+					<h4>Custom Links</h4>
+					<p>Since July 2015 I am the co-owner of Custom Links. I am responsible for all the programming work, design work and building solid programs to run on multiple Amazon AWS servers and keeping them running.</p>
+				</div>
+			</article>
+			<p class="italic">Find more projects at <a href="#current">current projects</a> or <a href="#portfolio">portfolio</a>.</p>
+		</section>
 		<section class="blog">
 			<h3>Highlighted writings</h3>
 			<article ng-click="go_external('https://medium.com/@jasperstein/solid-by-examples-9bebf07a9213')">
@@ -28,24 +45,6 @@
 				</div>
 			</article>
 			<p class="italic">Find more blogs at <a href="https://medium.com/@jasperstein" target="_blank">medium</a>.</p>
-		</section>
-		<section class="blog">
-			<h3>Highlighted projects</h3>
-			<article  ng-click="go_external('https://www.customizelinks.com/')">
-				<img src="/img/current/customizelinks-devices-example.png" alt="Customize Links"/>
-				<div class="content">
-					<h4>Custom Links</h4>
-					<p>Since July 2015 I am the co-owner of Custom Links. I am responsible for all the programming work, design work and building solid programs to run on multiple Amazon AWS servers and keeping them running.</p>
-				</div>
-			</article>
-			<article ng-click="go('current/Blendle')">
-				<img src="/img/current/blendlevisual.jpg" alt="Blendle"/>
-				<div class="content">
-					<h4>Blendle</h4>
-					<p>I currently work at Blendle as Software Engineer and Tech Lead Platform. Me and my team are responsible for all of the work around Blendle’s backend systems and infrastructure.</p>
-				</div>
-			</article>
-			<p class="italic">Find more projects at <a href="#current">current projects</a> or <a href="#portfolio">portfolio</a>.</p>
 		</section>
 		<section>
 			<h3>Other</h3>
