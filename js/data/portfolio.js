@@ -44,7 +44,7 @@
         "p": "The page was only optimized for desktop users and didn't suit mobile users. I used some CSS media queries to create a responsive version of this site."
       },
       {
-      	"a" : "http://www.typerendering.com"
+      	"a" : "https://www.typerendering.com"
       }
     ],
     "path": "portfolio/typerendering.jpg",
@@ -93,7 +93,7 @@
       	"img" : "portfolio/coolbestPicture.png"
       },
       {
-      	"a" : "http://coolbest.nl/mobile/fruit/"
+      	"a" : "https://coolbest.nl/mobile/fruit/"
       }
     ],
     "path": "portfolio/coolbest.jpg",

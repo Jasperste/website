@@ -43,7 +43,7 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 .about .content ul {list-style-type: none;padding: 0;}
 .about .content .update-info {color: rgb(29, 27, 27);font-size: 13px;margin-top: 2em;}
 
-.about .social {margin-top:1em;border-bottom:1px solid #252d40;margin-bottom:2em;padding-bottom:1em;margin-bottom:1em;display: block;width: 100%;float:left;}
+.about .social {margin-top:1em;border-bottom:1px solid #252d40;margin-bottom:1.5em;padding-bottom:1em;display: block;width: 100%;float:left;}
 .about .social ul {text-decoration: none;list-style: none;}
 .about .social ul li {float: left;list-style: none;margin-right:12px;}
 .about .social ul li a {    text-decoration: none;}
@@ -91,6 +91,12 @@ header .sliderContainer .slider {width:100px;height:4px;background-color: #252d4
 
 @media only screen and (min-width: 1000px) {
 	.squared .item {width: 50%;float:left;min-width:330px;margin-bottom: 15px;min-width: 330px;}
+}
+
+@media only screen and (max-width: 450px) {
+	header .content .social {
+		display: none;
+	}
 }
 
 .italic {font-style:italic;}
