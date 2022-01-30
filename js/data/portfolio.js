@@ -1,7 +1,68 @@
 [
   {
+    "title": "Blendle",
+    "desc": "Blendle (aquired by Cafeyn) aggregates articles into a single, ad-free platform where readers can pick and choose which stories to read. I worked here for 5 years as a Technical Lead and Software Engineer.",
+    "longdesc": [
+      {
+        "p": "Blendle aggregates articles from all magazines and publishers into a single, ad-free platform where readers get a daily selection of stories to read or can pick which stories to read from our digital kiosk. Blendle had almost two million Dutch users at it's peak."
+      },
+      {
+        "p": "Besides working as software engineering I led the tech stack and team to ensure architectural consistency and robustness. I was responsible for the stability of our code base, best practices, technical roadmap, architecture and scalability, effort estimations, verifying technical ideas and implementations, our general technical direction and I was a technical entry point for stakeholders."
+      },
+      {
+        "p": "Me and my team were responsible for all of the work around Blendle’s backend systems and infrastructure (mainly build with Ruby, Bash, Kubernetes, Golang, PostgreSQL and GraphQL). Among this are our pay-per-article and subscription systems (Stripe, Vodafone and Apple payment systems) and all our user-facing features. I also worked on all automations to get (international) publishers’ content into our platform, third-party integrations and expanding and building all the tools we currently use. If needed, I also did frontend work (ReactJS), which includes our main platform and our internal tools."
+      },
+      {
+        "p" : "Find Blendle by clicking on 'go to project'."
+      },
+      {
+        "a" : "https://www.blendle.com"
+      }
+    ],
+    "path": "current/blendle-logo.jpg",
+    "tasks": "Discover the best journalism"
+  },
+  {
+    "title": "Custom Links",
+    "desc": "From 2015 to 2021 I was co-owner of Custom Links. I was responsible for all software development and maintainance, the design work and building solid programs to run on multiple Amazon AWS servers.",
+    "longdesc": [
+      {
+        "p" : "After my study I started my own company together with my brother who attained a master's degree in marketing. We offered a service for companies to create branded short links and provide detailed insights into their link performances. I was responsible for all software development, the design work and building a solid program on multiple Amazon AWS servers and keeping them running. My daily tasks involved programming in Javascript, PHP, MySQL, Golang (our linkserver), HTML, CSS and working with AWS dockers, ELB, EBS, DynamoDB, Photoshop, Illustrator and many, many more. I was also responsible for all design work, like user experience, our corporate identity (like our logo) and the design of our website and our pages."
+      },
+      {
+        "p" : "Our customers configured their DNS of a domain or subdomain to our Golang server and we redirect everything to their desired pages. I build this server using Golang to get high performances and as little delay as possible while still fetching data from cache or from our database. On every request all possible information the server can get is saved into AWS dynamoDB and is later used in our statistics screen. This Golang server also has libraries to figure out device and browser information using the User Agent and is able to determine countries based on every request."
+      },
+      {
+        "p" : "This website contained secured user profiles, a payment system, a shorten option, copy option, settings, profile change options, password and username forgot functions and statistics a link. The website was responsive and therefore available on mobile. I also build a Chrome extension which makes shortening links a lot faster. It took the current URL and shortens it. You only have to press 'Save & Copy' and the shortened URL is automatically saved and copied to your clipboard to share everywhere. Below is a screenshot of this extension."
+      },
+      {
+        "img" : "current/chrome-plugin.png"
+      },
+      {
+        "p" : "Both website ran on Amazon AWS servers to prevent any downtime and to keep our server fast and reliable. I put a load balancer in front of our servers to make sure we have as little downtime as possible. Both server are build using Dockers which makes the Amazon able to automatically start new servers with preconfigured settings. Both servers should ran, restarted and scaled out by itself."
+      },
+      {
+        "img" : "current/library.png"
+      },
+      {
+        "p" : "For every created custom link you could view your statistics by browsing through your link library. When you clicked on one of your shortened links, you got a statistics view with all available information. Information like clicks a day or a month, click per country, browsers, operating systems, devices and referrers. You also get a total count and we remove common ‘bots’ and crawlers out of the results. Users are also able to select a date period to zoom in on certain periods since they made a particular link. The statistic data is saved when a link is clicked to our DynamoDB NoSQL database. When one of our customers click on a link, our server will fetch all rows and give the frontend some useful data to display. This statistics screen gives a detailed insight into link performance, which is very useful for our customers. Below a screenshot of our statistics screen."
+      },
+      {
+        "img" : "current/statistics.png"
+      },
+      {
+        "p" : "Custom links shut down in 2021, the site however can still be found on the link below."
+      },
+      {
+        "a" : "https://www.customizelinks.com"
+      }
+    ],
+    "path": "current/customizelinks.jpg",
+    "tasks": "PHP, Golang, Design, MySQL, DynamoDB, AWS services, concept to product"
+  },
+  {
     "title": "Browse",
-    "desc": "Browse is a startup for Android, iOS and web I worked on as developer and designer.",
+    "desc": "Browse is a startup for Android, iOS and web I co-owned and worked on as developer and designer.",
     "longdesc": [
       {
         "p": "Browse is a startup project which I started as a project for school in 2013 and worked on to January 2014. I also worked on this project between September 2014 and January 2015. Since December 2015, I'm back on it and it will be ready do a test launch in February 2016. I'm doing all the programming work myself, including building an Android (Java, including design) application, a server (PHP, MySQL) and a web application (Javascript, AngularJS and HTML/CSS, including design)."
@@ -10,14 +71,14 @@
         "p": "With this application you will get the most out of your location using your mobile phone. I would love to tell more about this application, but untill the BETA launch in 2016 I can't tell much. Keep an eye on my twitter!"
       },
       {
-        "p" : "If you are very curious, a good UX-designer, iOS developer or have a question, just send me an email or contact me via social media."
+        "p" : "If you are very curious or have a question, just send me an email or contact me via social media."
       }
     ],
     "path": "current/browse.jpg",
     "tasks": "Android, Web and iOS application"
   },
   {
-    "title": "MediaMonks bugfinder",
+    "title": "MediaMonks Bugfinder",
     "desc": "This project was my main task as intern developer at MediaMonks Amsterdam. My task was to build a NodeJS prototype bugfinder for data capturing.",
     "longdesc": [
       {
