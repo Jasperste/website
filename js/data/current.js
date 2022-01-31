@@ -7,7 +7,7 @@
         "p": "Oopen is a startup started out in 2021 and offers a platform for bussinesses to have customers schedule appointments, order products, and book services via their own pages. This way everyone spends less time figuring out the “when, what, and where” via email, phone, or text. Oopen tries to help out people, involving everyone, to start their own bussinesses and/or helps other digialize or make their (digital) presence a great experience with as less effort and complexity as possible."
       },
       {
-        "p": "I work here as Software Engineer in a growing development team and am co-responsible for all backend work."
+        "p": "I work here as one of the first Software Engineers in a growing development team and I am co-responsible for all backend software related work."
       },
       {
         "p" : "Discover our platform in the link below."
