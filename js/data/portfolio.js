@@ -1,4 +1,25 @@
 [
+
+  {
+    "title": "Vev",
+    "desc": "Vev is a startup which started out in 2021 and offers a platform for bussinesses to have customers schedule appointments, order products, and book services via their own pages.",
+    "longdesc": [
+      {
+        "p": "Vev is a startup which started out in 2021 and offers a platform for bussinesses to have customers schedule appointments, order products, and book services via their own pages. This way everyone spends less time figuring out the “when, what, and where” via email, phone, or text. Oopen tries to help out people, involving everyone, to start their own bussinesses and/or helps other digialize or make their (digital) presence a great experience with as less effort and complexity as possible."
+      },
+      {
+        "p": "I worked here as one of the first Software Engineers in a growing development team from 2021 to 2025. I was co-responsible for all software related work as engineer and tech lead."
+      },
+      {
+        "p" : "Discover the platform in the link below."
+      },
+      {
+        "a" : "https://www.vev.co"
+      }
+    ],
+    "path": "current/oopen-logo.png",
+    "tasks": "A store for everyone, to sell anything"
+  },
   {
     "title": "Blendle",
     "desc": "Blendle (aquired by Cafeyn) aggregates articles into a single, ad-free platform where readers can pick and choose which stories to read. I worked here for 5 years as a Technical Lead and Software Engineer.",

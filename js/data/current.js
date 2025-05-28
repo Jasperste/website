@@ -1,23 +1,23 @@
 [
   {
-    "title": "Vev",
-    "desc": "Vev is a startup started out in 2021 and offers a platform for bussinesses to have customers schedule appointments, order products, and book services via their own pages.",
+    "title": "Picnic",
+    "desc": "Picnic is an app-only supermarket that delivers groceries using electric vans, optimized by smart logistics and minimal waste.",
     "longdesc": [
       {
-        "p": "Vev is a startup started out in 2021 and offers a platform for bussinesses to have customers schedule appointments, order products, and book services via their own pages. This way everyone spends less time figuring out the “when, what, and where” via email, phone, or text. Oopen tries to help out people, involving everyone, to start their own bussinesses and/or helps other digialize or make their (digital) presence a great experience with as less effort and complexity as possible."
+        "p": "Picnic is an app-only supermarket that delivers groceries using electric vans, optimized by smart logistics and minimal waste."
       },
       {
-        "p": "I work here as one of the first Software Engineers in a growing development team and I am co-responsible for all backend software related work."
+        "p": "I work here as Tech Lead in multiple fast scaling teams. My scopes are the customer app, landing pages and the hiring sites for all employees working in DC's and driving vans."
       },
       {
-        "p" : "Discover our platform in the link below."
+        "p" : "Discover Picnic in the link below."
       },
       {
-        "a" : "https://www.vev.co"
+        "a" : "https://picnic.app/"
       }
     ],
-    "path": "current/oopen-logo.png",
-    "tasks": "A store for everyone, to sell anything"
+    "path": "current/picnic-logo.png",
+    "tasks": "Your daily groceries: always low prices, always free delivery, always fresh!"
   },
   {
     "title": "Other",
