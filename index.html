@@ -44,16 +44,14 @@
 	<!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-56296397-1']);
-	  _gaq.push(['_trackPageview']);
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GB156ENN18"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+	  gtag('config', 'G-GB156ENN18');
 	</script>
 </head>
 <body>
@@ -63,17 +61,16 @@
 				<div>
 					<div class="navigation">
 						<ul class="list" ng-click="openMenu = !openMenu">
-							<li><a href="#" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'home']);">Home</a></li>
-							<li><a href="#current" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'current']);">Current work</a></li>
-							<li><a href="#portfolio" onclick="_gaq.push(['_trackEvent', 'navigatie', 'klik', 'portfolio']);">Previous</a></li>
+							<li><a href="#" onclick="gtag('event', 'click', {event_category: 'navigation', event_label: 'home'});">Home</a></li>
+							<li><a href="#current" onclick="gtag('event', 'click', {event_category: 'navigation', event_label: 'current'});">Current work</a></li>
+							<li><a href="#portfolio" onclick="gtag('event', 'click', {event_category: 'navigation', event_label: 'portfolio'});">Previous</a></li>
 						</ul>
 					</div>
 			    </div>
 			    <div class="icon-home"></div>
 			    <div class="social">
-			    	<a href="https://github.com/jasperste" target="_blank" onclick="_gaq.push(['_trackEvent', 'social', 'klik', 'github']);"><span class="icon-github"></span></a>
-			    	<a href="https://nl.linkedin.com/pub/jasper-stein/63/8a7/59a/" target="_blank" onclick="_gaq.push(['_trackEvent', 'social', 'klik', 'linkedin']);"><span class="icon-linkedin"></span></a>
-			    	<a href="https://twitter.com/jasperste" target="_blank" onclick="_gaq.push(['_trackEvent', 'social', 'klik', 'twitter']);"><span class="icon-twitter"></span></a>
+					<a href="https://github.com/jasperste" target="_blank" onclick="gtag('event', 'click', {event_category: 'social', event_label: 'github'});"><span class="icon-github"></span></a>
+					<a href="https://nl.linkedin.com/pub/jasper-stein/63/8a7/59a/" target="_blank" onclick="gtag('event', 'click', {event_category: 'social', event_label: 'linkedin'});"><span class="icon-linkedin"></span></a>
 			    </div>
 			</div>
 			<div class="sliderContainer" click-slider>
